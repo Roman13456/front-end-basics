@@ -1,0 +1,73 @@
+.firstTable, .firstTable th,.firstTable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .firstTable tr:first-child{
+    background-color: #268f8f
+  }
+  .firstTable tr:first-child:hover{
+    background-color: #d97070
+  }
+  .firstTable tr:nth-child(2){
+    background-color: #f5f526
+  }
+  .firstTable tr:nth-child(2):hover{
+    background-color: #0a0ad9
+  }
+
+
+
+  
+.phone {
+    position: relative;
+    width: 120px;
+    height: 240px;
+    background-color: #dfe7ba;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.screen {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.time {
+    font-size: 24px;
+    line-height: 80px;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 80px;
+}
+
+.button {
+    margin: auto;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #3b2e40;
+    border-radius: 50%;
+}
+
+.screen.withTransform{
+    position: static;
+    transform: translate(10px, 20px);
+}
+.buttons.withTransform{
+    position: static;
+    transform: translate(20px, 60px);
+}
