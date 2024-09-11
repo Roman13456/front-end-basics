@@ -1,0 +1,13 @@
+{
+    
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "lab1/$1",
+        "config": {
+          "branch": "lab1"
+        }
+      }
+    ]
+}
+  
