@@ -1,0 +1,20 @@
+ul .clickable1{
+    background-color: black;
+    color: white;
+}
+ul .clickable2{
+    background-color: #9ef0f0;
+    color: #f11515;
+}
+a{
+    display: block;
+}
+img.invisible{
+    display: none;
+}
+img{
+    width: 500px;
+}
+img.zoomed{
+    width: 1000px;
+}
