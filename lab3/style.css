@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    padding: 10px;
+    
+}
+header{
+    background-color: lightblue;
+}
+/*flex*/
+.container.flex{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container.flex header{
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: lightblue;
+}
+.container.flex nav{
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: pink;
+}
+.container.flex section{
+    flex-grow: 3;
+    flex-basis: 0;
+    display: flex;
+}
+.container.flex section div{
+    background-color: #bce68b;
+    flex-grow: 3;
+    flex-basis: 0;
+}
+.container.flex section aside{
+    order: 1;
+    background-color: #93b071;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+*{
+    text-align: center;
+}
+
+/*float*/
+.container.float{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.container.float header{
+    min-height: 20%;
+}
+.container.float nav{
+    min-height: 20%;
+    background-color: pink;
+}
+.container.float section{
+    height: 60%;
+}
+.container.float section div{
+    background-color: #bce68b;
+    min-height: 100%;
+
+}
+.container.float section aside{
+    float: right;
+    width: 25%;
+    background-color: #93b071;
+    min-height: 100%;
+}
