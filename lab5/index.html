@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для заповнення</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Форма для заповнення</h2>
+            <aside class="notDisplayed">
+                <h4>
+                    Введені дані:
+                </h4>
+                <div class="data"></div>
+            </aside>
+            <form>
+                <div class="form-group">
+                    <label for="name">ПІБ</label>
+                    <input type="text" placeholder="наприклад: Іванов І. І." id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Телефон</label>
+                    <input type="text" placeholder="наприклад: (066)-123-45-67" id="tel" name="tel">
+                </div>
+                <div class="form-group">
+                    <label for="faculty">Факультет</label>
+                    <input type="text" id="faculty" placeholder="наприклад: ФІОТ" name="faculty">
+                </div>
+                <div class="form-group">
+                    <label for="birthday">Дата народження</label>
+                    <input type="text" id="birthday" placeholder="наприклад: 09.01.2001" name="birthday">
+                </div>
+                <div class="form-group">
+                    <label for="address">Адреса</label>
+                    <input type="text" id="address" placeholder="наприклад: м. Київ" name="address">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Підтвердити">
+                </div> 
+            </form>
+        </div>
+        <div class="table-container">
+            <input type="color" id="colorPicker" >
+            <table></table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
